@@ -15,6 +15,9 @@ h3{
 .name-highlight{
     color:orange;
 }
+.orange-highlight{
+    color: orange;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -47,4 +50,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    padding: 20px;
+    background-color: white;
+}
+.Experience-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
